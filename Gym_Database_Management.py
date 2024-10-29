@@ -3,9 +3,9 @@ from mysql.connector import Error
 from mysql.connector import IntegrityError
 
 def connect_database():
-    db_name = "fitness_center_db"
+    db_name = 'database name'
     user = 'root'
-    password = 'Doit4Pixie&Haribo'
+    password = 'password'
     host = 'localhost'
 
     try:
